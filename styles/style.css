@@ -288,6 +288,11 @@ text-decoration-skip-ink: none;
 .content__list-item{
   padding:3px;
 }
+.result__video-container,
+.content__list {
+  position: relative; 
+}
+
 ul,
 ol {
   list-style: none;
