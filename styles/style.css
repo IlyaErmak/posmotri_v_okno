@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+
 }
 
 html {
@@ -36,9 +37,9 @@ ol {
 
 .content {
   display: inline-grid;
-  grid-template-columns: 65% 30% ;
+  grid-template-columns: 65% 36% ;
   width: 1140px;
-  margin-top: 65px;
+  margin-top: 50px;
   margin-left: 30px;
   align-items: center;
 }
@@ -231,11 +232,11 @@ fieldset {
 
 .content__video-card {
   display: grid;
-  grid-template-columns: 197px 199px;
+  grid-template-columns: 195px 199px;
 }
 
 .content__video-card-thumbnail {
-  width: 192px;
+  width: 195px;
   height: 103px;
   object-fit: cover;
 }
@@ -272,7 +273,7 @@ fieldset {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 16.2px;
+  line-height: 25px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -294,7 +295,7 @@ fieldset {
 }
 
 .result__video-container,
-.content__list {
+.content__details{
   position: relative;
 }
 
