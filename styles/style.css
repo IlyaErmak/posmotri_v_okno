@@ -2,7 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-
 }
 
 html {
@@ -39,20 +38,19 @@ ol {
   display: inline-grid;
   grid-template-columns: 65% 36% ;
   width: 1140px;
-  margin-top: 50px;
   margin-left: 30px;
   align-items: center;
 }
 
 .result {
-  width: 711px;
+  width: 712px;
   height: 456px ;
-  margin-top: 105px;
+  margin-top: 80px;
 }
 
 .result__video {
   width: 711px;
-  height: 386px;
+  height: 381px;
   object-fit:cover;
 }
 
@@ -75,7 +73,7 @@ fieldset {
   grid-template-columns: 32.4% 30.6% 27%;
   grid-gap:35px;
   align-self: flex-start;
-  margin-top:11px;
+  margin-top:15px;
   
 }
 
@@ -215,19 +213,17 @@ fieldset {
   margin:0%;
 }
 
-.content__details {
-  margin-top:30px;
-}
+
 
 .content__list {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-top: 20px;
+  margin-top: 30px;
   overflow: auto;
   padding: 3px;
-  width: 410px;
-  height: 300px;
+  width: 390px;
+  height: 250px;
 }
 
 .content__video-card {
@@ -236,7 +232,7 @@ fieldset {
 }
 
 .content__video-card-thumbnail {
-  width: 195px;
+  width: 177px;
   height: 103px;
   object-fit: cover;
 }
@@ -295,7 +291,7 @@ fieldset {
 }
 
 .result__video-container,
-.content__details{
+.content__list-container {
   position: relative;
 }
 
