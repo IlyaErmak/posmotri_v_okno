@@ -38,7 +38,7 @@ ol {
   display: inline-grid;
   grid-template-columns: 65% 30% ;
   width: 1140px;
-  margin-top: 50px;
+  margin-top: 65px;
   margin-left: 30px;
   align-items: center;
 }
@@ -121,7 +121,8 @@ fieldset {
 }
 
 .more-button {
-  width:390px;
+  width:100%;
+  margin:0px;
 }
 
 .search-form__label {
@@ -224,17 +225,17 @@ fieldset {
   margin-top: 20px;
   overflow: auto;
   padding: 3px;
-  width: 398px;
+  width: 410px;
   height: 300px;
 }
 
 .content__video-card {
   display: grid;
-  grid-template-columns: 194px 200px;
+  grid-template-columns: 197px 199px;
 }
 
 .content__video-card-thumbnail {
-  width: 100%;
+  width: 192px;
   height: 103px;
   object-fit: cover;
 }
